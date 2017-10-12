@@ -91,6 +91,80 @@
             事实表（facts）：事实序号（facts_id）事实的描述（facts_des）
             规则表（rules）：序号（id）规则号（rules_id）前提号（pre_id）
             结论表（results）：规则号（rules_id）结论的描述（results_des）
+    ========================================
+
+2003基于Ontology知识库系统建模与应用研究
+    ========================================
+    知识的表达模式为:K=F+R+C
+        K表示知识项(Knowledge items)
+        F表示事实(Facts)
+        R表示规则(Rules)
+        c表示概念(Concepst)
+        知识是有层次的,即事实一概念一规则一启发式知识四个层次。
+****选择知识表示方法
+    知识的类型（赵建华）
+    知识的结构化组织
+        层次
+        结构
+        异构
+        线索
+        动作知识的表示
+        颗粒度
+        术语
+    学科知识的描述
+        知识点是系统处理的单元：
+            其知识库的建立都是把教学内容划分成知识点,并建立知识点之间的关系(链接)。
+        知识点划分的原则是保证知识内容的局部完整性
+    知识库系统建模框架
+        KADS(KnowledgeAidedDesignSystem)：领域层、推理层和任务层
+    建立本体要依据的原则
+        明确性和客观性
+        一致性
+        可扩展性(Extenidiblist)
+        最小编码偏差(Miinmalencoidgnibas)
+        最小本体承诺(Minimalontologiealcommstment)
+    本体的类型
+    ========================================
+
+2015基于深度学习的中文命名实体识别研究
+    ========================================
+    自然语言处理：
+        语音处理（Speech Processing）
+        信息抽取（Information Extraction）
+        信息检索（Information Retrieval）
+        文本分类（Text Categorization）
+        机器翻译（Machine Translation）
+        问答系统（Question Answering）
+        文本校验（Text Proofing）
+        自动摘要（Automatic Summarization）
+        情感分析（Sentiment Analysis）
+    共同的处理技术：
+        中文分词（Chinese  Word Segmentation）
+        词性标注（Part-of-speech Tagging）
+        命名实体识别（Named Entity Recognition）
+        句法分析（Parsing）
+    英文命名实体识别应用的统计模型方法主要包括：
+        隐马尔可夫模型（Hidden Markov Models，简称 HMM）
+        决策树（Decision Trees）
+        最大熵模型（Maximum Entropy Models，简称 MEM）
+        支持向量机（Support Vector Machines，简称 SVM）
+        条件随机场（Conditional Random Fields，简称 CRFs）
+            训练模型参数：L-BFGS 等数值优化方法较传统估计方法收敛速度更快
+            利用已有模型进行实体标注：采用维特比算法求解最优标记路径
+        人工神经网络（Artificial Neural Network，简称 ANN）
+    深度神经网络（DNN）模型：
+        自动编码器（Auto-Encoders）
+        受限波尔兹曼机（Restricted Boltzmann Machines，简称 RBMs）
+        深度置信网（Deep Belief Network，简称 DBN）
+    ========================================
+    基于深层神经网络的命名实体识别研究
+        人工神经网络（ANN）
+            ANN在训练时利用的反向传播算法可以不断调节网络参数，以求得最拟合训练集的模型函数
+
+
+
+
+
 
 
 
